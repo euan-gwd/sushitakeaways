@@ -1,0 +1,40 @@
+<ion-view view-title="Cart">
+    <ion-nav-buttons side="right">
+        <button class="button button-balanced"> Place Order </button>
+    </ion-nav-buttons>
+    <div class="bar bar-subheader bar-light">
+        <div class="row row-center">
+            <p class="col col-offset-25">Please Choose Order Quantity</p>
+        </div>
+    </div>
+    <ion-content class="has-subheader">
+        <ion-list>
+            <ion-item ng-repeat="selectedItem in selectedItems" class="item-text-wrap">
+                <div class="row">
+                    <div class="col col-75">
+                        <h2>{{selectedItem.name}}</h2></div>
+                    <div class="col">
+                        <p id="pricing">{{selectedItem.price | currency: "R " }}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-67 col-center">
+                        <p> How many:</p>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <button ng-click="selectedItem.quantity = selectedItem.quantity + 1" class="button button-clear button-balanced"><i class="icon ion-ios-plus-outline"></i></button>
+                            <p ng-model="selectedItem.quantity" class="total">{{selectedItem.quantity}}</p>
+                            <button ng-click="selectedItem.quantity = selectedItem.quantity - 1" class="button button-clear button-balanced"><i class="icon ion-ios-minus-outline"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+    <div class="bar bar-footer bar-stable row">
+        <div class="col col-75">Order Total: </div>
+        <div class="col">
+            <h3 ng-class="getTotal(result) > 0 ? 'total': 'hidden' ">R {{ getTotal() }} </h3> </div>
+    </div>
+</ion-view>

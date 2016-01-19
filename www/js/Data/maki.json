@@ -1,0 +1,87 @@
+[
+	{
+	    "name":"Salmon Maki",
+	    "price":35,
+	    "Qty":"6 pieces"
+	  },
+	  {
+	    "name":"Tuna Maki",
+	    "price":35,
+	    "Qty":"6 pieces"
+	  },
+	  {
+	    "name":"Prawn Maki",
+	    "price":35,
+	    "Qty":"6 pieces"
+	  },
+	  {
+	    "name":"Yuppy Maki",
+	    "price":35,
+	    "Qty":"6 pieces"
+	  },
+	  {
+	    "name":"Crabstick Maki",
+	    "price":26,
+	    "Qty":"6 pieces"
+	  },
+	  {
+	    "name":"Avo Maki",
+	    "price":24,
+	    "Qty":"6 pieces"
+	  },
+	  {
+	    "name":"Cucumber Maki",
+	    "price":22,
+	    "Qty":"6 pieces"
+	  },
+	  {
+	    "name":"Crunchy Salmon Skin Special Maki",
+	    "price":30,
+	    "Qty":"4 pieces"
+	  },
+	  {
+	    "name":"Spicy Salmon Special Maki",
+	    "price":34,
+	    "Qty":"4 pieces"
+	  },
+	  {
+	    "name":"Spicy Tuna Special Maki",
+	    "price":34,
+	    "Qty":"4 pieces"
+	  },
+	  {
+	    "name":"Rainbow Maki",
+	    "price":36,
+	    "description":"veggies topped with salmon tuna and avo",
+	    "Qty":"4 pieces"
+	  },
+	  {
+	    "name":"King Maki",
+	    "price":42,
+	    "description":"Salmon tuna prawn crabstick avo cucumber omelette",
+	    "Qty":"4 pieces"
+	  },
+	  {
+	    "name":"Inside Out King Maki",
+	    "price":42,
+	    "Qty":"4 pieces"
+	  },
+	   {
+	    "name":"Ama Afrika ",
+	    "price":34,
+	    "description":"Beef steak strips in Teriyaki sauce with tomato and cucumber",
+	    "Qty":"4 pieces"
+	  },
+	  {
+	    "name":"Mama Maki",
+	    "price":34,
+	    "description":"Fried chicken strips with cucumber avo and sushi mayo",
+	    "Qty":"4 pieces"
+	  },
+	  {
+	    "name":"Dragon Maki",
+	    "price":28,
+	    "description":"Vegetarian California roll topped with avo",
+	    "Qty":"4 pieces"
+	  }
+]

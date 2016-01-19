@@ -1,0 +1,62 @@
+<ion-view view-title="Sushi Bar">
+
+  <ion-nav-buttons side="right">
+                <button class="button button-icon ion-ios-cart-outline" ng-click="updateCart()" ></button>
+  </ion-nav-buttons>
+
+  <ion-content>
+    
+    <ion-list>
+        <ion-checkbox class="checkbox-assertive" ng-repeat="sushiItem in sushiItems" ng-model="sushiItem.Checked" ng-class="sushiItem.Checked !== true ? 'item-input' : 'card'">
+            <div class="padding">
+                <h3>{{sushiItem.name}} <span class="badge badge-stable">{{sushiItem.price}}</span></h3>
+                <p class="subdued">{{sushiItem.Qty}}</p>
+            </div>
+          </ion-checkbox>
+          <div class="item item-divider"><h2 class="">California Rolls</h2></div>
+          <ion-checkbox class="checkbox-assertive" ng-repeat="caliItem in caliItems" ng-model="caliItem.Checked" ng-class="caliItem.Checked !== true ? 'item-input' : 'card'">
+            <div class="padding">
+                <h3>{{caliItem.name}} <span class="badge badge-stable">{{caliItem.price}}</span></h3>
+                <p class="subdued">{{caliItem.Qty}}</p>
+            </div>
+          </ion-checkbox>
+          <div class="item item-divider"><h2 class="">Fashion Sandwiches</h2></div>
+          <ion-checkbox class="checkbox-assertive" ng-repeat="fashionItem in fashionItems" ng-model="fashionItem.Checked" ng-class="fashionItem.Checked !== true ? 'item-input' : 'card'">
+            <div class="padding">
+                <h3>{{fashionItem.name}} <span class="badge badge-stable">{{fashionItem.price}}</span></h3>
+                <p class="subdued">{{fashionItem.Qty}}</p>
+            </div>
+          </ion-checkbox>
+          <div class="item item-divider"><h2 class="">Maki</h2></div>
+          <ion-checkbox class="checkbox-assertive" ng-repeat="makiItem in makiItems" ng-model="makiItem.Checked" ng-class="makiItem.Checked !== true ? 'item-input' : 'card'">
+            <div class="padding">
+                <h3>{{makiItem.name}} <span class="badge badge-stable">{{makiItem.price}}</span></h3>
+                <p class="subdued">{{makiItem.Qty}}</p>
+            </div>
+          </ion-checkbox>
+          <div class="item item-divider"><h2 class="">Nigiri</h2></div>
+          <ion-checkbox class="checkbox-assertive" ng-repeat="nigiriItem in nigiriItems" ng-model="nigiriItem.Checked" ng-class="nigiriItem.Checked !== true ? 'item-input' : 'card'">
+            <div class="padding">
+                <h3>{{nigiriItem.name}} <span class="badge badge-stable">{{nigiriItem.price}}</span></h3>
+                <p class="subdued">{{nigiriItem.Qty}}</p>
+            </div>
+          </ion-checkbox>
+          <div class="item item-divider"><h2 class="">Roses and Battleships</h2></div>
+          <ion-checkbox class="checkbox-assertive" ng-repeat="rnbItem in rnbItems" ng-model="rnbItem.Checked" ng-class="rnbItem.Checked !== true ? 'item-input' : 'card'">
+            <div class="padding">
+                <h3>{{rnbItem.name}} <span class="badge badge-stable">{{rnbItem.price}}</span></h3>
+                <p class="subdued">{{rnbItem.Qty}}</p>
+            </div>
+          </ion-checkbox>
+          <div class="item item-divider"><h2 class="">Sushi Platters</h2></div>
+          <ion-checkbox class="checkbox-assertive" ng-repeat="platterItem in platterItems" ng-model="platterItem.Checked" ng-class="platterItem.Checked !== true ? 'item-input' : 'card'">
+            <div class="padding">
+                <h3>{{platterItem.name}} <span class="badge badge-stable">{{platterItem.price}}</span></h3>
+                <p class="subdued">{{platterItem.Qty}}</p>
+            </div>
+          </ion-checkbox>
+    </ion-list>
+
+  </ion-content>
+
+</ion-view>

@@ -1,0 +1,33 @@
+[
+	{
+	    "name":"Salmon Nigiri",
+	    "price":34,
+	    "Qty":"2 pieces"
+	  },
+	  {
+	    "name":"Tuna Nigiri",
+	    "price":34,
+	    "Qty":"2 pieces"
+	  },
+	  {
+	    "name":"Prawn Nigiri",
+	    "price":34,
+	    "Qty":"2 pieces"
+	  },
+	  {
+	    "name":"Inari Nigiri",
+	    "price":28,
+	    "description":"Deep fried Bean curd",
+	    "Qty":"2 pieces"
+	  },
+	  {
+	    "name":"Avo Nigiri",
+	    "price":24,
+	    "Qty":"2 pieces"
+	  },
+	  {
+	    "name":"Omelette Nigiri",
+	    "price":22,
+	    "Qty":"2 pieces"
+	  }
+]

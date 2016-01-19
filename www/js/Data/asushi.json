@@ -1,0 +1,55 @@
+[
+  {
+    "name":"Salmon Sashimi",
+    "price":42,
+    "Qty":"3 piece"
+  },
+  {
+    "name":"Tuna Sashimi",
+    "price":42,
+    "Qty":"3 piece"
+  },
+  {
+    "name":"Salmon Temaki Hand Roll",
+    "price":34,
+    "Qty":"1 piece"
+  },
+  {
+    "name":"Tuna Temaki",
+    "price":34,
+    "Qty":"1 piece"
+  },
+  {
+    "name":"Prawn Temaki",
+    "price":34,
+    "Qty":"1 piece"
+  },
+  {
+    "name":"Salmon skin Temaki",
+    "price":30,
+    "Qty":"1 piece"
+  },
+  {
+    "name":"Vegetarian Temaki",
+    "price":28,
+    "Qty":"1 piece"
+  },
+  {
+    "name":"Bamboo Roll Designer Sushi",
+    "price":42,
+    "description":"Salmon Avo and prawn rolled in cucumber topped with mayo ",
+    "Qty":"4 pieces"
+  },
+  {
+    "name":"Emporia Designer Sushi",
+    "price":34,
+    "description":"Deep fried salmon skin with prawn cucumber and avo",
+    "Qty":"4 pieces"
+  },
+  {
+    "name":"Cosmopolitan Designer Sushi",
+    "price":34,
+    "description":"Smoke salmon and cream cheese rolled in cucumber",
+    "Qty":"4 pieces"
+  }
+]

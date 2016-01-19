@@ -1,0 +1,47 @@
+[
+  {
+      "name":"Salmon Fashion Sandwich",
+      "price":34,
+      "Qty":"4 pieces"
+    },
+    {
+      "name":"Spicy Salmon Fashion Sandwich",
+      "price":34,
+      "Qty":"4 pieces"
+    },
+    {
+      "name":"Tuna Fashion Sandwich",
+      "price":34,
+      "Qty":"4 pieces"
+    },
+    {
+      "name":"Spicy Tuna Fashion Sandwich",
+      "price":34,
+      "Qty":"4 pieces"
+    },
+    {
+      "name":"Prawn Fashion Sandwich",
+      "price":34,
+      "Qty":"4 pieces"
+    },
+    {
+      "name":"Smoked Salmon Fashion Sandwich",
+      "price":30,
+      "Qty":"4 pieces"
+    },
+    {
+      "name":"Spicy Salmon Skin Fashion Sandwich",
+      "price":30,
+      "Qty":"4 pieces"
+    },
+    {
+      "name":"Crabstick Fashion Sandwich",
+      "price":28,
+      "Qty":"4 pieces"
+    },
+    {
+      "name":"Vegetarian  Fashion Sandwich",
+      "price":26,
+      "Qty":"4 pieces"
+    }
+]
